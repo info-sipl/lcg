@@ -1813,5 +1813,66 @@
       - custom js link
     -->
     <script src="./assets/js/script.js"></script>
+
+    <!-- PopUP for Admission Query -->
+
+    <!-- Admission Enquiry 2026 Auto Popup -->
+        <div class="modal fade" id="admission2026Modal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              
+              <div class="modal-header">
+                <h5 class="modal-title">Admission Enquiry 2026</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <div class="modal-body">
+                <form action="admission-enquiry.php" method="POST">
+                  
+                  <div class="mb-3">
+                    <label class="form-label">First Name</label>
+                    <input type="text" name="first_name" class="form-control" required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" name="last_name" class="form-control" required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Contact Number</label>
+                    <input type="tel" name="contact" class="form-control" required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control" required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Your Query</label>
+                    <textarea name="query" class="form-control" rows="3" required></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary w-100">
+                    Submit Enquiry
+                  </button>
+
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      <!-- Pop Up End -->
+
+      
+      <script>
+      window.addEventListener("load", function () {
+        var myModal = new bootstrap.Modal(document.getElementById('admission2026Modal'));
+        myModal.show();
+      });
+    </script>
+
   </body>
 </html>
