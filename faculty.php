@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+        - primary meta tag
+    -->
+    <title>LCG | Our Faculty</title>
+    <meta name="title" content="LCG Institute of Polytechnic" />
+    <meta
+      name="description"
+      content="LCG Institute of Polytechnic:Empowering Innovators with Industry-Relevant Education, Experienced Faculty, and Modern Facilities. Discover Our Diploma Programs for a Bright Future."
+    />
+kha
+    <!--
+        - favicon
+    -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/fav.png"
+      type="image/xml+png"
+    />
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+        - bootstrap css link
+    -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <!--
+      - reset css link
+    -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/faculty.css" />
+  </head>
+  <body>
+      <?php include_once "includes/highlights.php"; ?>
+
+    <!--
+      - #HEADER
+    -->
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <ion-icon name="mail"></ion-icon>
+
+              <a href="mailto:lcgpolytechnic@gmail.com" class="contact-link">
+                lcgms16@gmail.com
+              </a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call"></ion-icon>
+
+              <a href="tel:+919475887799" class="contact-link">
+                +91-9475887799
+              </a>
+
+              <!--<a href="tel:+917479043848" class="contact-link">-->
+              <!--  +91-7479043848-->
+              <!--</a>-->
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/LCGIP/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-bottom" data-header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="./main_society.php" style="color: red; text-decoration: none;">
+                    <h2 style="font-weight: bold;">LAKSMAN CHANDRA GHOSH MEMORIAL SOCIETY</h2>
+                </a>        
+              <a class="navbar-brand" href="./index.php">
+                <img
+                  src="./assets/img/logo/logo.png"
+                  width="180"
+                  alt="LCG Polytechnic"
+                />
+              </a>
+              
+              <button
+                class="navbar-toggle"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+              >
+                <ion-icon name="menu-sharp" class="menu-icon"></ion-icon>
+
+                <ion-icon name="close-sharp" class="close-icon"></ion-icon>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" aria-current="page" href="./index.php">
+                      Home
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.php">About Us</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Administration
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./society.php">
+                          Society Members
+                        </a>
+                      </li>    
+                        
+                      <li>
+                        <a class="dropdown-item" href="./student-welfare.php">
+                          Student Welfare Committee - 2024
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="./anti-ragging.php">
+                          Anti Ragging Committee - 2024
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./internal-complaint.php"
+                        >
+                          Internal Complaint Commitee - 2024
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./grievance-redemption.php"
+                        >
+                          Grievance Redemption Committee - 2024
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="./women-helpline.php">
+                          Women Helpline
+                        </a>
+                      </li>
+                      
+                      <li>
+                        <a class="dropdown-item" href="./ddu.php">
+                          Our Projects
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Academic
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./faculty.php">
+                          Our Faculty
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./academic-calender.php"
+                        >
+                          Academic Calender
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="./syllabus.php">
+                          Syllabus
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="./holiday-list.php">
+                          Holiday List
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./approval-institute.php"
+                        >
+                          Approval of our Institute
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="./gallery.php">
+                          Gallery
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./course.php">Courses</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./admission.php"> Admission </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./facility.php"> Facility </a>
+                  </li>
+
+                  <!--<li class="nav-item">-->
+                  <!--  <a class="nav-link" href="./contact.html"> Contact Us</a>-->
+                  <!--</li>-->
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      
+
+      <!-- <div class="header-notice">
+        <div class="container">
+          <div class="notice-content">
+            <p class="notice-title">Highlights</p>
+
+            <marquee class="notice-text">
+                
+             OUR ON-GOING PROJECTS UNDER <strong>DDU-GKY & UTKARSH BANGLA</strong> - 
+              <a
+                href="./ddu.html"
+                target="_blank"
+                style="color: red"
+              >
+                Click Here
+              </a>
+               &nbsp;&nbsp;|&nbsp;&nbsp; 
+              <strong>SCHOLARSHIP ALERT | E-Kalyan</strong>
+               <a
+                href="https://ekalyan.cgg.gov.in/"
+                target="_blank"
+                style="color: red"
+              >
+                Click Here
+              </a>
+            </marquee> -->
+            
+            <!--<marquee class="notice-text">-->
+            <!--  NOTICE FOR <strong>EVEN SEMESTER</strong> ROUTINE - -->
+            <!--  <a-->
+            <!--    href="./assets/pdf/ROUTINE_EVEN SEM_MAY 2025.pdf"-->
+            <!--    target="_blank"-->
+            <!--    style="color: red"-->
+            <!--  >-->
+            <!--    Click Here-->
+            <!--  </a>-->
+            <!--</marquee>-->
+          <!-- </div>
+        </div>
+      </div> -->
+    </header>
+
+    <main>
+      <article>
+        <!--
+          - #FACULTY
+        -->
+        <section class="section about" id="about" aria-label="faculty">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/img/faculty-banner.jpg"
+                alt="anti ragging banner"
+                width="470"
+                height="538"
+                loading="lazy"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">OUR FACULTY</p>
+
+              <h2 class="h2 section-title">Best Expert Lecturer</h2>
+            </div>
+          </div>
+        </section>
+
+        <!--
+          - #BASIC SCIENCE
+        -->
+        <!-- <section
+          class="section faculty"
+          id="faculty"
+          aria-label="faculty"
+          style="padding-block-start: 0"
+        >
+          <div class="container">
+            <p class="section-subtitle text-center">Meet Our Teachers</p>
+
+            <h2 class="h2 section-title text-center">
+              BASIC SCIENCE AND HUMANITIES
+            </h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-1.jpeg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Manab Kumer Ghosh"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Manab Kumer <br />Ghosh
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center">
+                      M.SC.(MATHEMATICS), <br />B.ED., M.C.A.
+                    </p>
+                    <p class="card-text text-center"><b>Experience : </b>10 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="mailto:manab.kgec@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-2.jpeg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Jyotirmoy Ghosh"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Jyotirmoy <br />Ghosh
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center">M.SC.(CHEMISTRY), <br />B.ED.</p>
+                    <p class="card-text text-center"><b>Experience : </b>7 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="mailto:jyotirmoy.ghosh362@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-3.jpeg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Snehashis Ghosh"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Snehashis <br />Ghosh
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center">M.SC.(PHYSICS), <br />B.ED.</p>
+                    <p class="card-text text-center"><b>Experience : </b>5 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="mailto:snehashisghosh86@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/AntaraMondal.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Antara Mondal"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Antara <br />Mondal
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center">B.A.(ENGLISH), <br />B.ED.</p>
+                    <p class="card-text text-center"><b>Experience : </b>2 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a href="mailto:info@lcginstitute.com" class="card-social-link">
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+
+        <?php
+include "admin/dbconnection.php";
+
+$sql = "SELECT * FROM faculty
+        WHERE status = 1 AND department = 'BASIC SCIENCE AND HUMANITIES'
+        ORDER BY created_at DESC";
+
+$result = $conn->query($sql);
+?>
+
+<section class="section faculty" id="faculty" aria-label="faculty" style="padding-block-start:0">
+  <div class="container">
+
+    <p class="section-subtitle text-center">Meet Our Teachers</p>
+    <h2 class="h2 section-title text-center">BASIC SCIENCE AND HUMANITIES</h2>
+
+    <ul class="has-scrollbar">
+
+    <?php while ($row = $result->fetch_assoc()): ?>
+      <li class="scrollbar-item">
+        <div class="faculty-card">
+
+          <div class="card-banner img-holder" style="width:260px; height:320px;">
+            <img src="./assets/img/faculty/<?php echo htmlspecialchars($row['image']); ?>"
+                 class="img-cover"
+                 loading="lazy"
+                 alt="<?php echo htmlspecialchars($row['name']); ?>">
+          </div>
+
+          <h3 class="h3">
+            <span class="card-title">
+              <?php echo htmlspecialchars($row['name']); ?>
+            </span>
+          </h3>
+
+          <p class="card-subtitle"><?php echo htmlspecialchars($row['designation']); ?></p>
+
+          <div class="text-wrapper">
+            <p class="card-text text-center">
+              <?php echo nl2br(htmlspecialchars($row['qualification'])); ?>
+            </p>
+            <p class="card-text text-center">
+              <b>Experience :</b> <?php echo htmlspecialchars($row['experience']); ?>
+            </p>
+          </div>
+
+          <ul class="card-social-list">
+            <?php if (!empty($row['email'])): ?>
+            <li>
+              <a href="mailto:<?php echo htmlspecialchars($row['email']); ?>" class="card-social-link">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
+            <?php endif; ?>
+          </ul>
+
+        </div>
+      </li>
+    <?php endwhile; ?>
+
+    </ul>
+  </div>
+</section>
+
+
+
+
+        <!--
+          - #CIVIL ENGINEERING
+        -->
+        <section
+          class="section faculty"
+          id="faculty"
+          aria-label="faculty"
+          style="padding-block-start: 0"
+        >
+          <div class="container">
+            <h2 class="h2 section-title text-center">
+              CIVIL ENGINEERING
+            </h2>
+
+            <ul class="has-scrollbar">
+              <?php while ($row = $result->fetch_assoc()): ?>
+      <li class="scrollbar-item">
+        <div class="faculty-card">
+
+          <div class="card-banner img-holder" style="width:260px; height:320px;">
+            <img src="./assets/img/faculty/<?php echo htmlspecialchars($row['image']); ?>"
+                 class="img-cover"
+                 loading="lazy"
+                 alt="<?php echo htmlspecialchars($row['name']); ?>">
+          </div>
+
+          <h3 class="h3">
+            <span class="card-title">
+              <?php echo htmlspecialchars($row['name']); ?>
+            </span>
+          </h3>
+
+          <p class="card-subtitle"><?php echo htmlspecialchars($row['designation']); ?></p>
+
+          <div class="text-wrapper">
+            <p class="card-text text-center">
+              <?php echo nl2br(htmlspecialchars($row['qualification'])); ?>
+            </p>
+            <p class="card-text text-center">
+              <b>Experience :</b> <?php echo htmlspecialchars($row['experience']); ?>
+            </p>
+          </div>
+
+          <ul class="card-social-list">
+            <?php if (!empty($row['email'])): ?>
+            <li>
+              <a href="mailto:<?php echo htmlspecialchars($row['email']); ?>" class="card-social-link">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
+            <?php endif; ?>
+          </ul>
+
+        </div>
+      </li>
+    <?php endwhile; ?>
+          </div>
+        </section>
+
+        <!--
+          - #ELECTRICAL ENGINEERING
+        -->
+        <section
+          class="section faculty"
+          id="faculty"
+          aria-label="faculty"
+          style="padding-block-start: 0"
+        >
+          <div class="container">
+            <h2 class="h2 section-title text-center">
+              ELECTRICAL ENGINEERING
+            </h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-7.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Zahir Abbas"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Zahir <br>Abbas
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>8 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="zahirbcrec@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-8.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Pronay Mondal"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Pronay <br>Mondal
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer (HOD)</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>6 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="pronaymondal1993@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-9.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Ankita Chatterjee"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Ankita <br>Chatterjee
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>3 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="chatterjeeanki@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item" style="visibility: hidden;">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-9.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Ankita Chatterjee"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Ankita <br>Chatterjee
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>3 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="chatterjeeanki@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--
+          - #MECHANICAL ENGINEERING
+        -->
+        <section
+          class="section faculty"
+          id="faculty"
+          aria-label="faculty"
+          style="padding-block-start: 0"
+        >
+          <div class="container">
+            <h2 class="h2 section-title text-center">
+              MECHANICAL ENGINEERING
+            </h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-10.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Pratip Choudhury"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Pratip <br>Choudhury
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer & <br>Teacher-In-Charge</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>5+ years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-11.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Sourav Das"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Sourav <br>Das
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>4 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-12.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Anshuman Chakraborty"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Anshuman <br>Chakraborty
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>3 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-13.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Jagannath Pal"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Jagannath <br>Pal
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center"><b>Experience : </b>1 years</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--
+          - #COMPUTER SCIENCE AND TECHNOLOGY
+        -->
+        <section
+          class="section faculty"
+          id="faculty"
+          aria-label="faculty"
+          style="padding-block-start: 0"
+        >
+          <div class="container">
+            <h2 class="h2 section-title text-center">
+              COMPUTER SCIENCE AND TECHNOLOGY
+            </h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-14.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Ranabir Saha"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Ranabir Saha
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer (HOD)</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center">
+                      Diploma(CST), <br />B.TECH
+                    </p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="mailto:ranabirsaha06@gmail.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/MahanPramanik.jpg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Sourav Das"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Mahan Pramanik
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <!--<div class="text-wrapper">-->
+                  <!--  <p class="card-text text-center">Diploma(CST), <br />B.TECH</p>-->
+                  <!--</div>-->
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="mailto:info@lcginstitute.com"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item" style="visibility: hidden;">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-14.jpeg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Sourav Das"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Sourav Das
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center">Diploma(CST), <br />B.TECH</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="scrollbar-item" style="visibility: hidden;">
+                <div class="faculty-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 460; --height: 500"
+                  >
+                    <img
+                      src="./assets/img/faculty/teacher-14.jpeg"
+                      width="460"
+                      height="500"
+                      loading="lazy"
+                      alt="Sourav Das"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="./faculty.html" class="card-title">
+                      Sourav Das
+                    </a>
+                  </h3>
+
+                  <p class="card-subtitle">Lecturer</p>
+
+                  <div class="text-wrapper">
+                    <p class="card-text text-center">Diploma(CST), <br />B.TECH</p>
+                  </div>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a
+                        href="#"
+                        class="card-social-link"
+                      >
+                        <ion-icon name="mail"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--
+          - #FOOTER
+        -->
+        <footer class="footer">
+          <div class="footer-top section">
+            <div class="container">
+              <div class="footer-brand">
+                <a href="./index.html" class="logo">
+                  <img
+                    src="./assets/img/logo/footer-logo.png"
+                    width="180"
+                    alt="LCG Polytechnic"
+                  />
+                </a>
+
+                <ul class="footer-list">
+                  <li>
+                    <p class="footer-list-title">Visitors</p>
+                  </li>
+
+                  <li class="footer-item">
+                    <div class="item-icon">
+                      <ion-icon name="rocket"></ion-icon>
+                    </div>
+
+                    <p class="item-text" data-visitor>0</p>
+                  </li>
+
+                  <li class="footer-item">
+                    <div class="item-icon">
+                      <ion-icon name="timer"></ion-icon>
+                    </div>
+
+                    <div class="item-text">
+                      <div id="currentDateTime"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Quick Links</p>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">Know More College</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">President's Message</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">Principal's Message</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">Our Vision & Mission</span>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Useful Links</p>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">AICTE INDIA</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">WBSCT & VE & SD</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">NATIONAL SCHOLARSHIP</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">Aikyashree Scholarship</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="footer-link">
+                    <ion-icon name="add"></ion-icon>
+
+                    <span class="span">SC ,ST & OBC Scholarship</span>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Contact Us</p>
+                </li>
+
+                <li class="footer-item">
+                  <div class="item-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <address class="item-text">
+                    Lambodarpur, Suri, Birbhum,<br />
+                    West Bengal pin - 731101
+                  </address>
+                </li>
+
+                <li class="footer-item">
+                  <div class="item-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <a href="tel:+919475887799" class="footer-link">
+                    +91-9475887799
+                  </a>
+                </li>
+
+                <li class="footer-item">
+                  <div class="item-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <a href="mailto:lcgpolytechnic@gmail.com" class="footer-link">
+                    lcgpolytechnic@gmail.com
+                  </a>
+                  <label> | </label>
+              <a href="mailto:info@lcginstitute.com" class="contact-link">
+               info@lcginstitute.com
+              </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="container">
+              <p class="copyright">
+                &copy; 2023 All Rights Reserved by
+                <a href="https://www.siplhub.com/" target="_blank">
+                  Sikharthy Infotech Pvt. Ltd.
+                </a>
+              </p>
+
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/LCGIP/"
+                    target="_blank"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a
+                    href="https://www.instagram.com/sikharthyinfotech"
+                    target="_blank"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/sikharthy-infotech-pvt-ltd"
+                    target="_blank"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+        <!--
+          - #BACK TO TOP
+        -->
+
+        <a
+          href="#top"
+          class="back-top-btn"
+          aria-label="back to top"
+          data-back-top-btn
+        >
+          <ion-icon name="caret-up"></ion-icon>
+        </a>
+      </article>
+    </main>
+
+    <!--
+        - bootstrap js link
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--
+        - ion-icon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

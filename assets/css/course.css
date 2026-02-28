@@ -1,0 +1,89 @@
+/*-----------------------------------*\
+  #course.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2023 Sikharthy Infotech
+ */
+
+/*-----------------------------------*\
+    #COURSE
+\*-----------------------------------*/
+.course {
+  padding-block-start: 0;
+}
+
+.section-text {
+  font-size: var(--fs-4);
+  margin-block: 15px;
+}
+
+.couse-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block-end: 10px;
+}
+
+.couse-item ion-icon {
+  color: var(--royal-blue);
+  --ionicon-stroke-width: 50px;
+}
+
+.course .course-list {
+  display: grid;
+  gap: 30px;
+}
+
+.course-card {
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-3);
+}
+
+.course-card .card-banner {
+  position: relative;
+  border-radius: var(--radius-4);
+  overflow: hidden;
+}
+
+.course-card .card-banner > img {
+  transition: var(--transition-2);
+}
+
+.course-card:is(:hover, :focus-within) .card-banner > img {
+  transform: scale(1.1);
+}
+
+.course-card {
+  padding: 30px;
+}
+
+.course-card .card-title {
+  transition: var(--transition-1);
+}
+
+.course-card:is(:hover, :focus) .card-title {
+  color: var(--royal-blue);
+}
+
+.course-card .card-text {
+  margin-block: 15px;
+}
+
+/*-----------------------------------*\
+    #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+  * responsive for large than 992px screen
+  */
+
+@media (min-width: 992px) {
+  /**
+    * COURSE
+    */
+
+   .course .course-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}

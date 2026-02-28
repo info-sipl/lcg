@@ -1,0 +1,61 @@
+/*-----------------------------------*\
+  #anti-ragging.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2023 Sikharthy Infotech
+ */
+
+/*-----------------------------------*\
+    #ANTI RAGGING
+\*-----------------------------------*/
+
+.about-banner {
+    margin-block-start: 30px;
+}
+
+.about-subtitle {
+  margin-block-start: 60px;
+}
+
+.about-content {
+  padding-block-end: 60px;
+}
+
+.members {
+    padding-block-start: 0;
+}
+
+.accordion-button {
+    font-size: var(--fs-6);
+}
+
+.lead {
+    font-size: var(--fs-7);
+}
+/*-----------------------------------*\
+    #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+  * responsive for large than 992px screen
+  */
+
+@media (min-width: 992px) {
+
+  /**
+    * ANTI RAGGING
+    */
+
+  .about {
+    padding-block-start: 220px;
+  }
+
+  .about-banner {
+    margin-block-end: 100px;
+  }
+
+  .about-banner > img {
+    width: 100% !important;
+  }
+}

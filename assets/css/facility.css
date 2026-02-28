@@ -1,0 +1,24 @@
+/*-----------------------------------*\
+  #facility.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2023 Sikharthy Infotech
+ */
+
+/*-----------------------------------*\
+    #FACILITY
+\*-----------------------------------*/
+
+.facility {
+    padding-block-start: 0;
+}
+
+.facility .section-title {
+    margin-block-end: 50px;
+}
+
+.facility .service-list > li:nth-child(1n+2) {
+    background-color: var(--summer-sky-light);
+    border-radius: var(--radius-4);
+}

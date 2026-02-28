@@ -1,0 +1,54 @@
+/*-----------------------------------*\
+  #about.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2023 Sikharthy Infotech
+ */
+
+/*-----------------------------------*\
+    #ABOUT
+\*-----------------------------------*/
+
+.about-banner {
+    margin-block-start: 30px;
+}
+
+.about-subtitle {
+  margin-block-start: 60px;
+}
+
+.about-content {
+  padding-block-end: 60px;
+}
+
+.about-content .btn {
+  display: none;
+}
+
+/*-----------------------------------*\
+    #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+  * responsive for large than 992px screen
+  */
+
+@media (min-width: 992px) {
+
+  /**
+    * ABOUT
+    */
+
+  .about {
+    padding-block-start: 220px;
+  }
+
+  .about-banner {
+    margin-block-end: 100px;
+  }
+
+  .about-banner > img {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,21 @@
+/*-----------------------------------*\
+  #faculty.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2023 Sikharthy Infotech
+ */
+
+/*-----------------------------------*\
+    #FACULTY
+\*-----------------------------------*/
+
+.text-wrapper {
+    margin-block-end: 20px;
+}
+
+.card-text {
+    line-height: 1.2;
+    text-align: left;
+    margin-block-end: 10px;
+}

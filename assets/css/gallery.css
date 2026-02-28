@@ -1,0 +1,44 @@
+/*-----------------------------------*\
+  #gallery.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2023 Sikharthy Infotech
+ */
+
+/*-----------------------------------*\
+    #GALLERY
+\*-----------------------------------*/
+
+.photo-gallery {
+  padding-block-start: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
+
+.img-fluid {
+    transition: var(--transition-2);
+}
+
+.img-fluid:is(:hover, :focus-visible) {
+    scale: 1.1;
+}
+
+/**
+  * responsive for large than 768px screen
+  */
+
+@media (min-width: 768px) {
+    .photo-gallery h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px;
+    }
+  }
+  
