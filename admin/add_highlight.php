@@ -32,8 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <?php if (!empty($msg)) echo "<p>$msg</p>"; ?>
 
 <form method="POST">
-    <textarea name="notice" required></textarea><br><br>
-    <input type="text" name="link"><br><br>
+    <textarea name="notice" placeholder="Enter Title" required></textarea><br><br>
+    <input type="text" placeholder="Enter Notice" name="link"><br><br>
     <button type="submit">Publish</button>
 </form>
 

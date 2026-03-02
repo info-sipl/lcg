@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username   = "root";     // default XAMPP username
-$password   = "";         // default XAMPP password (blank)
+$username   = "lcg_db_user";     // default XAMPP username
+$password   = "EJSiWT5SHEG{";         // default XAMPP password (blank)
 $database   = "lcg";
 $port       = 3315;
 

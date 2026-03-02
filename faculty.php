@@ -343,192 +343,7 @@ kha
           </div>
         </section>
 
-        <!--
-          - #BASIC SCIENCE
-        -->
-        <!-- <section
-          class="section faculty"
-          id="faculty"
-          aria-label="faculty"
-          style="padding-block-start: 0"
-        >
-          <div class="container">
-            <p class="section-subtitle text-center">Meet Our Teachers</p>
-
-            <h2 class="h2 section-title text-center">
-              BASIC SCIENCE AND HUMANITIES
-            </h2>
-
-            <ul class="has-scrollbar">
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-1.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Manab Kumer Ghosh"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Manab Kumer <br />Ghosh
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center">
-                      M.SC.(MATHEMATICS), <br />B.ED., M.C.A.
-                    </p>
-                    <p class="card-text text-center"><b>Experience : </b>10 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:manab.kgec@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-2.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Jyotirmoy Ghosh"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Jyotirmoy <br />Ghosh
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center">M.SC.(CHEMISTRY), <br />B.ED.</p>
-                    <p class="card-text text-center"><b>Experience : </b>7 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:jyotirmoy.ghosh362@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-3.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Snehashis Ghosh"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Snehashis <br />Ghosh
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center">M.SC.(PHYSICS), <br />B.ED.</p>
-                    <p class="card-text text-center"><b>Experience : </b>5 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:snehashisghosh86@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/AntaraMondal.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Antara Mondal"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Antara <br />Mondal
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center">B.A.(ENGLISH), <br />B.ED.</p>
-                    <p class="card-text text-center"><b>Experience : </b>2 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="mailto:info@lcginstitute.com" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section> -->
+       
 
         <?php
 include "admin/dbconnection.php";
@@ -600,19 +415,27 @@ $result = $conn->query($sql);
         <!--
           - #CIVIL ENGINEERING
         -->
-        <section
-          class="section faculty"
-          id="faculty"
-          aria-label="faculty"
-          style="padding-block-start: 0"
-        >
-          <div class="container">
-            <h2 class="h2 section-title text-center">
-              CIVIL ENGINEERING
-            </h2>
+        
 
-            <ul class="has-scrollbar">
-              <?php while ($row = $result->fetch_assoc()): ?>
+        <?php
+include "admin/dbconnection.php";
+
+$sql = "SELECT * FROM faculty
+        WHERE status = 1 AND department = 'CIVIL ENGINEERING'
+        ORDER BY created_at DESC";
+
+$result = $conn->query($sql);
+?>
+
+<section class="section faculty" id="faculty" aria-label="faculty" style="padding-block-start:0">
+  <div class="container">
+
+    <!-- <p class="section-subtitle text-center">Meet Our Teachers</p> -->
+    <h2 class="h2 section-title text-center">CIVIL ENGINEERING</h2>
+
+    <ul class="has-scrollbar">
+
+    <?php while ($row = $result->fetch_assoc()): ?>
       <li class="scrollbar-item">
         <div class="faculty-card">
 
@@ -653,556 +476,212 @@ $result = $conn->query($sql);
         </div>
       </li>
     <?php endwhile; ?>
-          </div>
-        </section>
+
+    </ul>
+  </div>
+</section>
 
         <!--
           - #ELECTRICAL ENGINEERING
         -->
-        <section
-          class="section faculty"
-          id="faculty"
-          aria-label="faculty"
-          style="padding-block-start: 0"
-        >
-          <div class="container">
-            <h2 class="h2 section-title text-center">
-              ELECTRICAL ENGINEERING
-            </h2>
+       <?php
+include "admin/dbconnection.php";
 
-            <ul class="has-scrollbar">
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-7.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Zahir Abbas"
-                      class="img-cover"
-                    />
-                  </div>
+$sql = "SELECT * FROM faculty
+        WHERE status = 1 AND department = 'ELECTRICAL ENGINEERING'
+        ORDER BY created_at DESC";
 
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Zahir <br>Abbas
-                    </a>
-                  </h3>
+$result = $conn->query($sql);
+?>
 
-                  <p class="card-subtitle">Lecturer</p>
+<section class="section faculty" id="faculty" aria-label="faculty" style="padding-block-start:0">
+  <div class="container">
 
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>8 years</p>
-                  </div>
+    <!-- <p class="section-subtitle text-center">Meet Our Teachers</p> -->
+    <h2 class="h2 section-title text-center">ELECTRICAL ENGINEERING</h2>
 
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="zahirbcrec@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
+    <ul class="has-scrollbar">
 
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-8.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Pronay Mondal"
-                      class="img-cover"
-                    />
-                  </div>
+    <?php while ($row = $result->fetch_assoc()): ?>
+      <li class="scrollbar-item">
+        <div class="faculty-card">
 
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Pronay <br>Mondal
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer (HOD)</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>6 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="pronaymondal1993@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-9.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Ankita Chatterjee"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Ankita <br>Chatterjee
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>3 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="chatterjeeanki@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item" style="visibility: hidden;">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-9.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Ankita Chatterjee"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Ankita <br>Chatterjee
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>3 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="chatterjeeanki@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+          <div class="card-banner img-holder" style="width:260px; height:320px;">
+            <img src="./assets/img/faculty/<?php echo htmlspecialchars($row['image']); ?>"
+                 class="img-cover"
+                 loading="lazy"
+                 alt="<?php echo htmlspecialchars($row['name']); ?>">
           </div>
-        </section>
+
+          <h3 class="h3">
+            <span class="card-title">
+              <?php echo htmlspecialchars($row['name']); ?>
+            </span>
+          </h3>
+
+          <p class="card-subtitle"><?php echo htmlspecialchars($row['designation']); ?></p>
+
+          <div class="text-wrapper">
+            <p class="card-text text-center">
+              <?php echo nl2br(htmlspecialchars($row['qualification'])); ?>
+            </p>
+            <p class="card-text text-center">
+              <b>Experience :</b> <?php echo htmlspecialchars($row['experience']); ?>
+            </p>
+          </div>
+
+          <ul class="card-social-list">
+            <?php if (!empty($row['email'])): ?>
+            <li>
+              <a href="mailto:<?php echo htmlspecialchars($row['email']); ?>" class="card-social-link">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
+            <?php endif; ?>
+          </ul>
+
+        </div>
+      </li>
+    <?php endwhile; ?>
+
+    </ul>
+  </div>
+</section>
+
 
         <!--
           - #MECHANICAL ENGINEERING
         -->
-        <section
-          class="section faculty"
-          id="faculty"
-          aria-label="faculty"
-          style="padding-block-start: 0"
-        >
-          <div class="container">
-            <h2 class="h2 section-title text-center">
-              MECHANICAL ENGINEERING
-            </h2>
+        <?php
+include "admin/dbconnection.php";
 
-            <ul class="has-scrollbar">
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-10.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Pratip Choudhury"
-                      class="img-cover"
-                    />
-                  </div>
+$sql = "SELECT * FROM faculty
+        WHERE status = 1 AND department = 'MECHANICAL ENGINEERING'
+        ORDER BY created_at DESC";
 
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Pratip <br>Choudhury
-                    </a>
-                  </h3>
+$result = $conn->query($sql);
+?>
 
-                  <p class="card-subtitle">Lecturer & <br>Teacher-In-Charge</p>
+<section class="section faculty" id="faculty" aria-label="faculty" style="padding-block-start:0">
+  <div class="container">
 
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>5+ years</p>
-                  </div>
+    <!-- <p class="section-subtitle text-center">Meet Our Teachers</p> -->
+    <h2 class="h2 section-title text-center">MECHANICAL ENGINEERING</h2>
 
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="#"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
+    <ul class="has-scrollbar">
 
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-11.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Sourav Das"
-                      class="img-cover"
-                    />
-                  </div>
+    <?php while ($row = $result->fetch_assoc()): ?>
+      <li class="scrollbar-item">
+        <div class="faculty-card">
 
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Sourav <br>Das
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>4 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="#"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-12.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Anshuman Chakraborty"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Anshuman <br>Chakraborty
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>3 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="#"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-13.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Jagannath Pal"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Jagannath <br>Pal
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center"><b>Experience : </b>1 years</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="#"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+          <div class="card-banner img-holder" style="width:260px; height:320px;">
+            <img src="./assets/img/faculty/<?php echo htmlspecialchars($row['image']); ?>"
+                 class="img-cover"
+                 loading="lazy"
+                 alt="<?php echo htmlspecialchars($row['name']); ?>">
           </div>
-        </section>
+
+          <h3 class="h3">
+            <span class="card-title">
+              <?php echo htmlspecialchars($row['name']); ?>
+            </span>
+          </h3>
+
+          <p class="card-subtitle"><?php echo htmlspecialchars($row['designation']); ?></p>
+
+          <div class="text-wrapper">
+            <p class="card-text text-center">
+              <?php echo nl2br(htmlspecialchars($row['qualification'])); ?>
+            </p>
+            <p class="card-text text-center">
+              <b>Experience :</b> <?php echo htmlspecialchars($row['experience']); ?>
+            </p>
+          </div>
+
+          <ul class="card-social-list">
+            <?php if (!empty($row['email'])): ?>
+            <li>
+              <a href="mailto:<?php echo htmlspecialchars($row['email']); ?>" class="card-social-link">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
+            <?php endif; ?>
+          </ul>
+
+        </div>
+      </li>
+    <?php endwhile; ?>
+
+    </ul>
+  </div>
+</section>
 
         <!--
           - #COMPUTER SCIENCE AND TECHNOLOGY
         -->
-        <section
-          class="section faculty"
-          id="faculty"
-          aria-label="faculty"
-          style="padding-block-start: 0"
-        >
-          <div class="container">
-            <h2 class="h2 section-title text-center">
-              COMPUTER SCIENCE AND TECHNOLOGY
-            </h2>
+                <?php
+include "admin/dbconnection.php";
 
-            <ul class="has-scrollbar">
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-14.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Ranabir Saha"
-                      class="img-cover"
-                    />
-                  </div>
+$sql = "SELECT * FROM faculty
+        WHERE status = 1 AND department = 'COMPUTER SCIENCE AND TECHNOLOGY'
+        ORDER BY created_at DESC";
 
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Ranabir Saha
-                    </a>
-                  </h3>
+$result = $conn->query($sql);
+?>
 
-                  <p class="card-subtitle">Lecturer (HOD)</p>
+<section class="section faculty" id="faculty" aria-label="faculty" style="padding-block-start:0">
+  <div class="container">
 
-                  <div class="text-wrapper">
-                    <p class="card-text text-center">
-                      Diploma(CST), <br />B.TECH
-                    </p>
-                  </div>
+    <!-- <p class="section-subtitle text-center">Meet Our Teachers</p> -->
+    <h2 class="h2 section-title text-center">COMPUTER SCIENCE AND TECHNOLOGY</h2>
 
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:ranabirsaha06@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
+    <ul class="has-scrollbar">
 
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/MahanPramanik.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Sourav Das"
-                      class="img-cover"
-                    />
-                  </div>
+    <?php while ($row = $result->fetch_assoc()): ?>
+      <li class="scrollbar-item">
+        <div class="faculty-card">
 
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Mahan Pramanik
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <!--<div class="text-wrapper">-->
-                  <!--  <p class="card-text text-center">Diploma(CST), <br />B.TECH</p>-->
-                  <!--</div>-->
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:info@lcginstitute.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item" style="visibility: hidden;">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-14.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Sourav Das"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Sourav Das
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center">Diploma(CST), <br />B.TECH</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="#"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item" style="visibility: hidden;">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-14.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Sourav Das"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Sourav Das
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <div class="text-wrapper">
-                    <p class="card-text text-center">Diploma(CST), <br />B.TECH</p>
-                  </div>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="#"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+          <div class="card-banner img-holder" style="width:260px; height:320px;">
+            <img src="./assets/img/faculty/<?php echo htmlspecialchars($row['image']); ?>"
+                 class="img-cover"
+                 loading="lazy"
+                 alt="<?php echo htmlspecialchars($row['name']); ?>">
           </div>
-        </section>
+
+          <h3 class="h3">
+            <span class="card-title">
+              <?php echo htmlspecialchars($row['name']); ?>
+            </span>
+          </h3>
+
+          <p class="card-subtitle"><?php echo htmlspecialchars($row['designation']); ?></p>
+
+          <div class="text-wrapper">
+            <p class="card-text text-center">
+              <?php echo nl2br(htmlspecialchars($row['qualification'])); ?>
+            </p>
+            <p class="card-text text-center">
+              <b>Experience :</b> <?php echo htmlspecialchars($row['experience']); ?>
+            </p>
+          </div>
+
+          <ul class="card-social-list">
+            <?php if (!empty($row['email'])): ?>
+            <li>
+              <a href="mailto:<?php echo htmlspecialchars($row['email']); ?>" class="card-social-link">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
+            <?php endif; ?>
+          </ul>
+
+        </div>
+      </li>
+    <?php endwhile; ?>
+
+    </ul>
+  </div>
+</section>
 
         <!--
           - #FOOTER

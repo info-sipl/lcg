@@ -72,8 +72,8 @@
             <li class="contact-item">
               <ion-icon name="call"></ion-icon>
 
-              <a href="tel:+919475887799" class="contact-link">
-                +91-9475887799
+              <a href="tel:+919830721351" class="contact-link">
+                +91-9830721351
               </a>
 
               <!--<a href="tel:+917479043848" class="contact-link">-->
