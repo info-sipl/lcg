@@ -341,12 +341,10 @@
               <h2 class="h2 section-title">Brief Profile Of LCG Polytechnic</h2>
 
               <p class="section-text">
-                LCG Institute of Polytechnic, founded in 2016, is located at rural backdrop far from the maddening crowd. Still all the facilities of Suri & Tarapith are within easy and comfortable reach. The impact of The students and teachers are deeply imbued with Swami Vivekananda’s mission and educational concepts. The setting is not only serene and solemn, but also intimately attached to nature, which is vibrant with the notes of birds, whispering wind, mesmerizing fragrance of flowers and of course, the positive nod of tree tops. Any casual visitor to the campus of LCG may also be accorded with a warm welcome from patrons, pupils and personnel. Out and out it is humane. Situated at Lambodarpur, Suri and only 5 Km from Suri bus stand on, LCG, an endeavor of ‘LCG MEMORIAL SOCIETY’ is now committed to produce competent professionals in respect of the changing needs of the life and society. The campus is linked with communications spreading over different points of transit. Again the campus is just one Km away from Suri Sub-Divisional Hospital at Suri. The institute is entirely free from all sorts of pollution and disturbances.
+                The Polytechnic Education in our State was introduced immediately after independence. To look after the academic activities of polytechnic education, ‘State Council for Engineering & Technical Education’ was set-up as a Government outfit by an executive order. The Council was a part of the Chief Inspectorate of Technical Education and subsequently of the Directorate of Technical Education. West Bengal State Council of Technical and Vocational Education and Skill Development was formed as a Statutory Body under the West Bengal Act XXVI of 2013. LCG Institute of Polytechnic is one of the prestigious institutions of West Bengal which has been carrying its glory since the establishment of this college. LCG Polytechnic College came into existence in 2016 due to the missionary zeal of the visionary. LCG Institute of Polytechnic is situated at Lambodarpur, which is Five (5 KM) away from Suri town. It is situated on the road of Suri-Rampurhat of Birbhum District.
               </p>
               
-              <h2 class="h2 section-title">Our Board of Trustees</h2><span class="span"><a href="./assets/pdf/SOCIETY[1].pdf" target="_blank">Click Here</a></span>
-
-              <a href="./about.html" class="btn">Read more</a>
+              
             </div>
           </div>
           

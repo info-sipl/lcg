@@ -50,14 +50,24 @@
       - custom css link
     -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+
+
   </head>
   <body>
-      <?php include_once "includes/highlights.php"; ?>
+      
+        <!-- ===== PAGE LOADER START ===== -->
+      <div id="page-loader">
+        <div class="loader-content">
+          <img src="./assets/img/logo/logo.png" alt="LCG Logo" class="loader-logo">
+        </div>
+      </div>
+      <!-- ===== PAGE LOADER END ===== -->
 
     <!--
       - #HEADER
     -->
-    <header class="header">
+    <!-- <header class="header">
       <div class="header-top">
         <div class="container">
           <ul class="contact-list">
@@ -76,9 +86,7 @@
                 +91-9830721351
               </a>
 
-              <!--<a href="tel:+917479043848" class="contact-link">-->
-              <!--  +91-7479043848-->
-              <!--</a>-->
+       
             </li>
           </ul>
 
@@ -94,217 +102,13 @@
             </li>
           </ul>
         </div>
-      </div>
-
-      <div class="header-bottom" data-header>
-        <div class="container">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a href="./main_society.php" style="color: red; text-decoration: none;">
-                    <h2 style="font-weight: bold;">LAKSMAN CHANDRA GHOSH MEMORIAL SOCIETY</h2>
-                </a>        
-              <a class="navbar-brand" href="./index.php">
-                <img
-                  src="./assets/img/logo/logo.png"
-                  width="180"
-                  alt="LCG Polytechnic"
-                />
-              </a>
-              
-              <button
-                class="navbar-toggle"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-              >
-                <ion-icon name="menu-sharp" class="menu-icon"></ion-icon>
-
-                <ion-icon name="close-sharp" class="close-icon"></ion-icon>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="./index.php">
-                      Home
-                    </a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="./about.php">About Us</a>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Administration
-                    </a>
-
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="./society.php">
-                          Society Members
-                        </a>
-                      </li>    
-                        
-                      <li>
-                        <a class="dropdown-item" href="./student-welfare.php">
-                          Student Welfare Committee - 2024
-                        </a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="./anti-ragging.php">
-                          Anti Ragging Committee - 2024
-                        </a>
-                      </li>
-
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="./internal-complaint.php"
-                        >
-                          Internal Complaint Commitee - 2024
-                        </a>
-                      </li>
-
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="./grievance-redemption.php"
-                        >
-                          Grievance Redemption Committee - 2024
-                        </a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="./women-helpline.php">
-                          Women Helpline
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a class="dropdown-item" href="./ddu.php">
-                          Our Projects
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Academic
-                    </a>
-
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="./faculty.php">
-                          Our Faculty
-                        </a>
-                      </li>
-
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="./academic-calender.php"
-                        >
-                          Academic Calender
-                        </a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="./syllabus.php">
-                          Syllabus
-                        </a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="./holiday-list.php">
-                          Holiday List
-                        </a>
-                      </li>
-
-                      <li>
-                        <a
-                          class="dropdown-item"
-                          href="./approval-institute.php"
-                        >
-                          Approval of our Institute
-                        </a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="./gallery.php">
-                          Gallery
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="./course.php">Courses</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="./admission.php"> Admission </a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="./facility.php"> Facility </a>
-                  </li>
-
-                  <!--<li class="nav-item">-->
-                  <!--  <a class="nav-link" href="./contact.html"> Contact Us</a>-->
-                  <!--</li>-->
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-      
-
-      <!-- <div class="header-notice">
-        <div class="container">
-          <div class="notice-content">
-            <p class="notice-title">Highlights</p>
-
-            <marquee class="notice-text">
-                
-             OUR ON-GOING PROJECTS UNDER <strong>DDU-GKY & UTKARSH BANGLA</strong> - 
-              <a
-                href="./ddu.html"
-                target="_blank"
-                style="color: red"
-              >
-                Click Here
-              </a>
-               &nbsp;&nbsp;|&nbsp;&nbsp; 
-              <strong>SCHOLARSHIP ALERT | E-Kalyan</strong>
-               <a
-                href="https://ekalyan.cgg.gov.in/"
-                target="_blank"
-                style="color: red"
-              >
-                Click Here
-              </a>
-            </marquee>
-            
-           
-          </div>
-        </div>
       </div> -->
-    </header>
+
+      <?php include 'menu.php'; ?>
+      <?php include_once "includes/highlights.php"; ?>
+     
+       
+
 
     <main>
       <article>
@@ -328,7 +132,7 @@
                 />
 
                 <div class="carousel-text">
-                  <p class="section-subtitle has-after">Welcome To LAKSMAN CHANDRA GHOSH MEMORIAL SOCIETY</p>
+                  <p class="section-subtitle has-after">Welcome To LCG INSTITUTE OF POLYTECHNIC</p>
                   <h3 style="color: white; padding-left: 50px; padding-right: 50px; box-sizing: border-box; width: 100%;">
                     As the Secretary of LCG Institute Of Polytechnic, I am honored to welcome all students, parents, and partners to our vibrant learning community. 
                   We are dedicated to delivering top-tier technical education, underpinned by modern infrastructure, hands-on projects, and industry-aligned curricula. 
@@ -350,7 +154,7 @@
                 />
 
                 <div class="carousel-text">
-                  <p class="section-subtitle">Welcome To LAKSMAN CHANDRA GHOSH MEMORIAL SOCIETY</p>
+                  <p class="section-subtitle">Welcome To LCG INSTITUTE OF POLYTECHNIC</p>
                   <h1 class="h1 section-title">Best Education We Provide</h1>
                 </div>
               </div>
@@ -365,7 +169,7 @@
                 />
 
                 <div class="carousel-text">
-                  <p class="section-subtitle">Welcome To LAKSMAN CHANDRA GHOSH MEMORIAL SOCIETY</p>
+                  <p class="section-subtitle">Welcome To LCG INSTITUTE OF POLYTECHNIC</p>
                   <h1 class="h1 section-title">Best Placement We Provide</h1>
                 </div>
               </div>
@@ -398,10 +202,10 @@
             </button>
           </div>
 
-          <div
+          <!-- <div
             class="alert alert-warning alert-dismissible fade show"
             role="alert"
-          >
+          > -->
             <div class="container">
               <!--<strong>Current !</strong> Odd semester payment on 15.09.2023.-->
               <!--<a href="./academic-calender.html">Click here</a>-->
@@ -418,73 +222,63 @@
         <!--
           - #SERVICE
         -->
-        <section class="section service" id="service" aria-label="service">
-          <div class="container">
-            <p class="section-subtitle text-center">Our Services</p>
+     <section class="section service" id="service" aria-label="service">
+  <div class="container">
+    <p class="section-subtitle text-center service-title-reveal">Our Services</p>
+    <h2 class="h2 section-title text-center service-title-reveal">
+      What We Provide
+    </h2>
 
-            <h2 class="h2 section-title text-center">What We Provide</h2>
+    <ul class="service-list">
 
-            <ul class="service-list">
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <ion-icon name="library"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="h3 card-title">
-                      The Basic Science and humanities
-                    </h3>
-
-                    <p class="card-text">
-                      The Basic Science and Humanities Department of this
-                      prestigious institution has faculties with their vast
-                      knowledge in both theoretical and practical aspects.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <ion-icon name="desktop"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="h3 card-title">
-                      Computer Science and Technology
-                    </h3>
-
-                    <p class="card-text">
-                      Computer Science Technology is a three-year course that
-                      prepares students to work as entry-level software
-                      developers in small, medium or large enterprises.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <ion-icon name="hardware-chip"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="h3 card-title">Electrical Engineering</h3>
-
-                    <p class="card-text">
-                      Computer Science & Technology is a 3-year course that
-                      prepares students to work as entry-level software
-                      developers in small, medium or large enterprises.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
+      <!-- Card 1 -->
+      <li class="service-reveal">
+        <div class="service-card">
+          <div class="card-icon">
+            <ion-icon name="library"></ion-icon>
           </div>
-        </section>
+          <div>
+            <h3 class="h3 card-title">The Basic Science and Humanities</h3>
+            <p class="card-text">
+              The Basic Science and Humanities Department of this prestigious institution has faculties with their vast knowledge in both theoretical and practical aspects.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <!-- Card 2 -->
+      <li class="service-reveal">
+        <div class="service-card">
+          <div class="card-icon">
+            <ion-icon name="desktop"></ion-icon>
+          </div>
+          <div>
+            <h3 class="h3 card-title">Computer Science and Technology</h3>
+            <p class="card-text">
+              Computer Science Technology is a three-year course that prepares students to work as entry-level software developers in small, medium or large enterprises.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <!-- Card 3 -->
+      <li class="service-reveal">
+        <div class="service-card">
+          <div class="card-icon">
+            <ion-icon name="hardware-chip"></ion-icon>
+          </div>
+          <div>
+            <h3 class="h3 card-title">Electrical Engineering</h3>
+            <p class="card-text">
+              Electrical Engineering prepares students with practical and theoretical skills required for modern industries and technical environments.
+            </p>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
         
         <!-- Project -->
         
@@ -573,161 +367,150 @@
         <!--
           - #APPROVAL
         -->
-        <section class="section approval" id="approval" aria-label="approval">
-          <div class="container">
-            <p class="section-subtitle text-center">Our Approval</p>
+ <section class="section approval-split" id="approval" aria-label="approval">
+  <div class="container">
+    <div class="approval-flex">
 
-            <h2 class="h2 section-title text-center">
-              Approval Of Our Institute
-            </h2>
-
-            <ul class="approval-list">
-              <li>
-                <div class="approval-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/img/logo/aicte.png"
-                      width="150"
-                      height="150"
-                      alt=""
-                    />
-                  </div>
-
-                  <div>
-                    <p class="card-text text-center">
-                      AICTE APROVAL PROCESS 2024-2025 LETTER | Extension of
-                      Approval (EoA) All India Council for Technical Education
-                      (A Statutory body under the Ministry of Education, Govt.
-                      of India)
-                    </p>
-
-                    <h3 class="h3 card-title text-center">
-                    <span class="span"><a href="./assets/pdf/EOA Report 2025-26.PDF" target="_blank">EOA-Report: 2025-26</a></span>
-                      
-                          <!--Download PDF <ion-icon name="download"></ion-icon>-->
-                     
-                    </h3>
-                  </div>
-                </div>
-              </li>
-            </ul>
+      <!-- LEFT BLOCK -->
+      <div class="approval-left">
+        <div class="approval-card">
+          <div class="card-icon text-center">
+            <img
+              src="./assets/img/logo/aicte.png"
+              width="150"
+              height="150"
+              alt="AICTE Logo"
+            />
           </div>
-        </section>
+
+          <div>
+            <p class="card-text text-center">
+              AICTE APPROVAL PROCESS 2024-2025 LETTER | Extension of Approval (EoA)
+              All India Council for Technical Education
+              (A Statutory body under the Ministry of Education, Govt. of India)
+            </p>
+
+            <h3 class="h3 card-title text-center">
+              <a href="./assets/pdf/EOA Report 2025-26.PDF" target="_blank">
+                EOA-Report: 2025-26
+              </a>
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT BLOCK -->
+      <div class="approval-right">
+        <p class="section-subtitle">Our Approval</p>
+        <h2 class="section-title">
+          Approval Of Our Institute
+        </h2>
+      </div>
+
+    </div>
+  </div>
+</section>
 
         <!--
           - #AFFILIATION
         -->
         <section
-          class="section affiliation"
-          id="affiliation"
-          aria-label="affiliation"
-        >
-          <div class="container">
-            <p class="section-subtitle text-center">Our Affiliation</p>
+  class="section affiliation"
+  id="affiliation"
+  aria-label="affiliation"
+>
+  <div class="container">
+    <p class="section-subtitle text-center affiliation-title">
+      Our Affiliation
+    </p>
 
-            <h2 class="h2 section-title text-center">Meet Our Affiliations</h2>
+    <h2 class="h2 section-title text-center affiliation-title">
+      Meet Our Affiliations
+    </h2>
 
-            <ul class="affiliation-list">
-              <li>
-                <div class="affiliation-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/img/logo/bopt.png"
-                      width="150"
-                      height="150"
-                      alt="bopt"
-                    />
-                  </div>
-
-                  <h3 class="h3 card-title text-center">
-                    Board Of Practical Training
-                  </h3>
-                </div>
-              </li>
-
-              <li>
-                <div class="affiliation-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/img/logo/aicte.png"
-                      width="150"
-                      height="150"
-                      alt=""
-                    />
-                  </div>
-
-                  <h3 class="h3 card-title text-center">
-                    All India Council For Technical Education
-                  </h3>
-                </div>
-              </li>
-
-              <li>
-                <div class="affiliation-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/img/logo/wbscte.png"
-                      width="150"
-                      height="150"
-                      alt="wbscte"
-                    />
-                  </div>
-
-                  <h3 class="h3 card-title text-center">
-                    West Bengal State Council Of Technical & Vocational
-                    Education & Skill Development
-                  </h3>
-                </div>
-              </li>
-            </ul>
+    <ul class="affiliation-list">
+      <li class="affiliation-reveal">
+        <div class="affiliation-card">
+          <div class="card-icon">
+            <img
+              src="./assets/img/logo/bopt.png"
+              width="150"
+              height="150"
+              alt="bopt"
+            />
           </div>
-        </section>
+          <h3 class="h3 card-title text-center">
+            Board Of Practical Training
+          </h3>
+        </div>
+      </li>
+
+      <li class="affiliation-reveal">
+        <div class="affiliation-card">
+          <div class="card-icon">
+            <img
+              src="./assets/img/logo/aicte.png"
+              width="150"
+              height="150"
+              alt=""
+            />
+          </div>
+          <h3 class="h3 card-title text-center">
+            All India Council For Technical Education
+          </h3>
+        </div>
+      </li>
+
+      <li class="affiliation-reveal">
+        <div class="affiliation-card">
+          <div class="card-icon">
+            <img
+              src="./assets/img/logo/wbscte.png"
+              width="150"
+              height="150"
+              alt="wbscte"
+            />
+          </div>
+          <h3 class="h3 card-title text-center">
+            West Bengal State Council Of Technical & Vocational Education & Skill Development
+          </h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
         <!--
           - #ABOUT
         -->
         <section class="section about" id="about" aria-label="about">
-          <div class="container">
-            <figure class="about-banner">
-              <img
-                src="./assets/img/about-banner.jpeg"
-                alt="about banner"
-                width="470"
-                height="538"
-                loading="lazy"
-                class="w-100"
-              />
-            </figure>
+  <div class="container">
 
-            <div class="about-content">
-              <p class="section-subtitle">About Us</p>
+    <figure class="about-banner about-left-reveal">
+      <img
+        src="./assets/img/about-banner.jpeg"
+        alt="about banner"
+        width="470"
+        height="538"
+        loading="lazy"
+        class="w-100"
+      />
+    </figure>
 
-              <h2 class="h2 section-title">We Care For Your Learning</h2>
+    <div class="about-content about-right-reveal" id="about-div">
+      <p class="section-subtitle">About Us</p>
 
-              <p class="section-text">
-                The Polytechnic Education in our State was introduced
-                immediately after independence. To look after the academic
-                activities of polytechnic education, ‘State Council for
-                Engineering & Technical Education’ was set-up as a Government
-                outfit by an executive order. The Council was a part of the
-                Chief Inspectorate of Technical Education and subsequently of
-                the Directorate of Technical Education. West Bengal State
-                Council of Technical and Vocational Education and Skill
-                Development was formed as a Statutory Body under the West Bengal
-                Act XXVI of 2013. LCG Institute of Polytechnic is one of the
-                prestigious institutions of West Bengal which has been carrying
-                its glory since the establishment of this college. LCG
-                Polytechnic College came into existence in 2016 due to the
-                missionary zeal of the visionary. LCG Institute of Polytechnic
-                is situated at Lambodarpur, which is Five (5 KM) away from Suri
-                town. It is situated on the road of Suri-Rampurhat of Birbhum
-                District.
-              </p>
+      <h2 class="h2 section-title">We Care For Your Learning</h2>
 
-              <a href="./about.html" class="btn">Read more</a>
-            </div>
-          </div>
-        </section>
+      <p class="section-text">
+        The Polytechnic Education in our State was introduced immediately after independence...
+      </p>
+
+      <a href="./about.php" class="btn">Read more</a>
+    </div>
+
+  </div>
+</section>
 
         <!--
           - #ABOUT COUNTER
@@ -817,582 +600,7 @@
         <!--
           - #FACULTY
         -->
-        <section class="section faculty" id="faculty" aria-label="faculty">
-          <div class="container">
-            <p class="section-subtitle text-center">Our Faculty</p>
-
-            <h2 class="h2 section-title text-center">Best Expert Lecturer</h2>
-
-            <ul class="has-scrollbar">
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-1.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Manab Kumer Ghosh"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Manab Kumer <br />Ghosh
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:manab.kgec@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-2.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Jyotirmoy Ghosh"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Jyotirmoy <br />Ghosh
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:jyotirmoy.ghosh362@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-3.jpeg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Snehashis Ghosh"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Snehashis <br />Ghosh
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:snehashisghosh86@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/AntaraMondal.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Antara Mondal"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Antara <br />Mondal
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="mailto:info@lcginstitute.com" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-5.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Bhaskar Das"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Bhaskar <br />Das
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="bhaskar94das@gmail.com" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-
-                <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-6.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Kiranmoy Sen"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Kiranmoy <br />Sen
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:kiranmoysen1999@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/ArindamSen.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Arindam Sen"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Arindam <br />Sen
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="mailto:info@lcginstitute.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-7.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Zahir Abbas"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Zahir <br />Abbas
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="zahirbcrec@gmail.com" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-8.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Pronay Mondal"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Pronay <br />Mondal
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer (HOD)</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="pronaymondal1993@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-9.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Ankita Chatterjee"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Ankita <br />Chatterjee
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a
-                        href="chatterjeeanki@gmail.com"
-                        class="card-social-link"
-                      >
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-10.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Pratip Choudhury"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Pratip <br />Choudhury
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="#" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-11.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Sourav Das"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Sourav <br />Das
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="#" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-12.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Anshuman Chakraborty"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Anshuman <br />Chakraborty
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="#" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-13.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Jagannath Pal"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Jagannath <br />Pal
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="#" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/teacher-14.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Ranabir Saha"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Ranabir <br>Saha
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="ranabirsaha06@gmail.com" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="faculty-card">
-                  <div
-                    class="card-banner img-holder"
-                    style="--width: 460; --height: 500"
-                  >
-                    <img
-                      src="./assets/img/faculty/MahanPramanik.jpg"
-                      width="460"
-                      height="500"
-                      loading="lazy"
-                      alt="Mahan Pramanik"
-                      class="img-cover"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="./faculty.html" class="card-title">
-                      Mahan <br>Pramanik
-                    </a>
-                  </h3>
-
-                  <p class="card-subtitle">Lecturer</p>
-
-                  <ul class="card-social-list">
-                    <li>
-                      <a href="mailto:info@lcginstitute.com" class="card-social-link">
-                        <ion-icon name="mail"></ion-icon>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
+        
 
         <!--
           - #ADMISSION
@@ -1873,6 +1081,129 @@
         myModal.show();
       });
     </script>
+
+    <!-- Services Block Animation -->
+     <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const serviceElements = document.querySelectorAll(
+    ".service-reveal, .service-title-reveal"
+  );
+
+  const serviceObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add("active");
+        }, index * 150); // stagger effect
+      } else {
+        entry.target.classList.remove("active"); // re-animate on scroll up
+      }
+
+    });
+  }, { threshold: 0.2 });
+
+  serviceElements.forEach(el => {
+    serviceObserver.observe(el);
+  });
+
+});
+</script>
+
+ <!-- Modern Approval Layout  -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const approvalItems = document.querySelectorAll(
+    ".approval-left, .approval-right"
+  );
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+      } else {
+        entry.target.classList.remove("active");
+        // allows animation again when scrolling back
+      }
+
+    });
+  }, { threshold: 0.3 });
+
+  approvalItems.forEach(item => observer.observe(item));
+
+});
+</script>
+
+
+<!-- Page Loader -->
+
+<script>
+window.addEventListener("load", function () {
+  const loader = document.getElementById("page-loader");
+
+  setTimeout(function () {
+    loader.classList.add("hide");
+  }, 2000); // 2 seconds loading time
+});
+</script>
+
+<!-- Affiliation Block Animation -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const titles = document.querySelectorAll(".affiliation-title");
+  const cards = document.querySelectorAll(".affiliation-reveal");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add("active");
+        }, index * 200); // stagger effect
+      } else {
+        entry.target.classList.remove("active"); // animate again on scroll up
+      }
+
+    });
+  }, { threshold: 0.2 });
+
+  titles.forEach(el => observer.observe(el));
+  cards.forEach(el => observer.observe(el));
+
+});
+</script>
+
+<!-- About Us -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const aboutElements = document.querySelectorAll(
+    ".about-left-reveal, .about-right-reveal"
+  );
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+      } else {
+        entry.target.classList.remove("active"); 
+        // Allows animation again on reverse scroll
+      }
+
+    });
+  }, { threshold: 0.3 });
+
+  aboutElements.forEach(el => observer.observe(el));
+
+});
+</script>
 
   </body>
 </html>

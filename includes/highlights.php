@@ -13,40 +13,42 @@ $sql = "SELECT title, description
 $result = $conn->query($sql);
 ?>
 
-<div class="header-notice">
-    <div class="container">
-        <div class="notice-content">
-            <p class="notice-title">Highlights</p>
+<div class="highlight-wrapper" style="margin-top: 5px;">
+    <div class="header-notice" style="margin-top: 16px;">
+        <div class="container">
+            <div class="notice-content">
+                <p class="notice-title">Highlights</p>
 
-            <marquee class="notice-text">
-                <?php if ($result && $result->num_rows > 0): ?>
-                    <?php while ($row = $result->fetch_assoc()): ?>
+                <marquee class="notice-text">
+                    <?php if ($result && $result->num_rows > 0): ?>
+                        <?php while ($row = $result->fetch_assoc()): ?>
 
-                        <strong>
-                            <?php echo htmlspecialchars($row['title']); ?>
-                        </strong>
-                        —
-                        <?php
-                        // Short preview of description
-                        echo htmlspecialchars(
-                            mb_strimwidth($row['description'], 0, 100, '...')
-                        );
-                        ?>
+                            <strong>
+                                <?php echo htmlspecialchars($row['title']); ?>
+                            </strong>
+                            —
+                            <?php
+                            // Short preview of description
+                            echo htmlspecialchars(
+                                mb_strimwidth($row['description'], 0, 100, '...')
+                            );
+                            ?>
 
-                        <a href="highlights.php"
-                           target="_blank"
-                           style="color:red; font-weight:bold;">
-                            Click Here
-                        </a>
+                            <a href="highlights.php"
+                            target="_blank"
+                            style="color:red; font-weight:bold;">
+                                Click Here
+                            </a>
 
-                        &nbsp;&nbsp; | &nbsp;&nbsp;
+                            &nbsp;&nbsp; | &nbsp;&nbsp;
 
-                    <?php endwhile; ?>
-                <?php else: ?>
-                    No current highlights
-                <?php endif; ?>
-            </marquee>
+                        <?php endwhile; ?>
+                    <?php else: ?>
+                        No current highlights
+                    <?php endif; ?>
+                </marquee>
 
+            </div>
         </div>
     </div>
 </div>

@@ -109,7 +109,7 @@ html {
 
 body {
   position: relative;
-  background-color: var(--white);
+  background-color: #fff4e6;
   color: var(--comet-silver);
   font-size: 1.6rem;
   font-weight: 500;
@@ -121,7 +121,8 @@ body {
 \*-----------------------------------*/
 
 .section {
-  padding-block: var(--section-padding);
+  /* padding-block: var(--section-padding); */
+  padding-block: 60px;
 }
 
 .section-subtitle {
@@ -360,6 +361,7 @@ h3 {
 .hero {
   padding-block-start: 142px;
   padding-block-end: calc(var(--section-padding) / 2);
+  padding-top: 0;
 }
 
 .carousel {
@@ -1179,6 +1181,7 @@ h3 {
 
   .header-notice {
     top: 140px;
+
   }
 
   .notice-title {
@@ -1381,4 +1384,199 @@ h3 {
     right: 50px;
     top: 65px;
   }
+}
+
+.highlight-wrapper {
+  margin-top: 30px;
+}
+
+.section.hero {
+  padding-top: 34px;
+}
+
+/* ================= Scroll Reveal Animation ================= */
+
+/* ===== SERVICES ANIMATION ===== */
+
+.service-title-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.service-title-reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.service-reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease;
+}
+
+.service-reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover effect */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== APPROVAL SPLIT LAYOUT ===== */
+
+.approval {
+  margin-top: 150px;
+}
+
+.section-subtitle {
+  font-size: 50px;
+}
+
+.section-title{
+  font-size: 30px;
+}
+
+.approval-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.approval-left,
+.approval-right {
+  flex: 1;
+}
+
+/* Scroll Animation */
+.approval-left,
+.approval-right {
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+
+/* Left slide */
+.approval-left {
+  transform: translateX(-80px);
+}
+
+/* Right fade + slight slide */
+.approval-right {
+  transform: translateX(80px);
+}
+
+/* Active state */
+.approval-left.active,
+.approval-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .approval-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ===== FULL SCREEN PAGE LOADER ===== */
+
+#page-loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+.loader-content {
+  text-align: center;
+}
+
+.loader-logo {
+  width: 150px;
+  animation: logoZoom 2s ease-in-out infinite alternate;
+}
+
+/* Zoom animation */
+@keyframes logoZoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/* Hide loader */
+#page-loader.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+/* ===== AFFILIATION SCROLL EFFECT ===== */
+
+/* Title fade */
+.affiliation-title {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.affiliation-title.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Cards slide left to right */
+.affiliation-reveal {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition: all 0.8s ease;
+}
+
+.affiliation-reveal.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ===== ABOUT SECTION SCROLL EFFECT ===== */
+
+.about-left-reveal,
+.about-right-reveal {
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+
+/* Image from left */
+.about-left-reveal {
+  transform: translateX(-100px);
+}
+
+/* Text from right */
+.about-right-reveal {
+  transform: translateX(100px);
+}
+
+/* When visible */
+.about-left-reveal.active,
+.about-right-reveal.active {
+  opacity: 1;
+  transform: translateX(0);
 }
