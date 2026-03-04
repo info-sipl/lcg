@@ -67,48 +67,9 @@
     <!--
       - #HEADER
     -->
-    <!-- <header class="header">
-      <div class="header-top">
-        <div class="container">
-          <ul class="contact-list">
-            <li class="contact-item">
-              <ion-icon name="mail"></ion-icon>
-
-              <a href="mailto:lcgpolytechnic@gmail.com" class="contact-link">
-                lcgms16@gmail.com
-              </a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="call"></ion-icon>
-
-              <a href="tel:+919830721351" class="contact-link">
-                +91-9830721351
-              </a>
-
-       
-            </li>
-          </ul>
-
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.facebook.com/LCGIP/"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div> -->
-
+  
       <?php include 'menu.php'; ?>
       <?php include_once "includes/highlights.php"; ?>
-     
-       
-
 
     <main>
       <article>
@@ -371,7 +332,15 @@
   <div class="container">
     <div class="approval-flex">
 
-      <!-- LEFT BLOCK -->
+      <!-- LEFT BLOCK (Now Text) -->
+      <div class="approval-right">
+        <p class="section-subtitle">Our Approval</p>
+        <h2 class="section-title">
+          Approval Of Our Institute
+        </h2>
+      </div>
+
+      <!-- RIGHT BLOCK (Now Logo + Report) -->
       <div class="approval-left">
         <div class="approval-card">
           <div class="card-icon text-center">
@@ -397,14 +366,6 @@
             </h3>
           </div>
         </div>
-      </div>
-
-      <!-- RIGHT BLOCK -->
-      <div class="approval-right">
-        <p class="section-subtitle">Our Approval</p>
-        <h2 class="section-title">
-          Approval Of Our Institute
-        </h2>
       </div>
 
     </div>
@@ -515,87 +476,99 @@
         <!--
           - #ABOUT COUNTER
         -->
-        <section
-          class="section about-counter"
-          id="counter"
-          aria-label="about counter"
-        >
-          <div class="container">
-            <ul class="counter-list">
-              <li>
-                <div class="counter-card">
-                  <div class="card-icon">
-                    <ion-icon name="library"></ion-icon>
-                  </div>
+       <section
+  class="section about-counter"
+  id="counter"
+  aria-label="about counter"
+>
+  <div class="container">
 
-                  <h2
-                    class="h2 counter counter-title text-center"
-                    target="18"
-                    data-counter
-                  >
-                    0
-                  </h2>
+    <!-- Heading -->
+    <h2 class="infra-heading text-center">
+      Our Infrastructure
+    </h2>
 
-                  <p class="card-subtitle text-center">Subjects</p>
-                </div>
-              </li>
+    <ul class="counter-list">
 
-              <li>
-                <div class="counter-card">
-                  <div class="card-icon">
-                    <ion-icon name="person"></ion-icon>
-                  </div>
-
-                  <h2
-                    class="h2 counter-title text-center"
-                    target="3500"
-                    data-counter
-                  >
-                    0
-                  </h2>
-
-                  <p class="card-subtitle text-center">Students</p>
-                </div>
-              </li>
-
-              <li>
-                <div class="counter-card">
-                  <div class="card-icon">
-                    <ion-icon name="flask"></ion-icon>
-                  </div>
-
-                  <h2
-                    class="h2 counter-title text-center"
-                    target="12"
-                    data-counter
-                  >
-                    0
-                  </h2>
-
-                  <p class="card-subtitle text-center">Mordern Lab</p>
-                </div>
-              </li>
-
-              <li>
-                <div class="counter-card">
-                  <div class="card-icon">
-                    <ion-icon name="school"></ion-icon>
-                  </div>
-
-                  <h2
-                    class="h2 counter-title text-center"
-                    target="50"
-                    data-counter
-                  >
-                    0
-                  </h2>
-
-                  <p class="card-subtitle text-center">Teacher</p>
-                </div>
-              </li>
-            </ul>
+      <!-- Counter 1 -->
+      <li>
+        <div class="counter-card counter-reveal">
+          <div class="card-icon">
+            <ion-icon name="library"></ion-icon>
           </div>
-        </section>
+
+          <h2
+            class="h2 counter-title text-center counter"
+            target="18"
+            data-counter
+          >
+            0
+          </h2>
+
+          <p class="card-subtitle text-center">Subjects</p>
+        </div>
+      </li>
+
+      <!-- Counter 2 -->
+      <li>
+        <div class="counter-card counter-reveal">
+          <div class="card-icon">
+            <ion-icon name="person"></ion-icon>
+          </div>
+
+          <h2
+            class="h2 counter-title text-center counter"
+            target="3500"
+            data-counter
+          >
+            0
+          </h2>
+
+          <p class="card-subtitle text-center">Students</p>
+        </div>
+      </li>
+
+      <!-- Counter 3 -->
+      <li>
+        <div class="counter-card counter-reveal">
+          <div class="card-icon">
+            <ion-icon name="flask"></ion-icon>
+          </div>
+
+          <h2
+            class="h2 counter-title text-center counter"
+            target="12"
+            data-counter
+          >
+            0
+          </h2>
+
+          <p class="card-subtitle text-center">Modern Lab</p>
+        </div>
+      </li>
+
+      <!-- Counter 4 -->
+      <li>
+        <div class="counter-card counter-reveal">
+          <div class="card-icon">
+            <ion-icon name="school"></ion-icon>
+          </div>
+
+          <h2
+            class="h2 counter-title text-center counter"
+            target="50"
+            data-counter
+          >
+            0
+          </h2>
+
+          <p class="card-subtitle text-center">Teacher</p>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
 
         <!--
           - #FACULTY
@@ -606,372 +579,49 @@
           - #ADMISSION
         -->
         <section
-          class="section admission"
+          class="section admission admission-section"
           id="admission"
           aria-label="admission"
         >
-          <div class="container">
-            <figure class="admission-banner">
-              <img
-                src="./assets/img/admission-banner.jpg"
-                width="1056"
-                height="1076"
-                loading="lazy"
-                alt="admission banner"
-                class="w-100"
-              />
-            </figure>
 
-            <div class="admission-content">
-              <p class="section-subtitle">Admission</p>
+        <div class="container admission-flex">
 
-              <h2 class="h2 section-title">
-                We Are Open And Welcoming Students
-              </h2>
+          <!-- LEFT CONTENT -->
+          <div class="admission-content admission-left">
 
-              <!-- active until scrollY 7684 -->
-              <div>
-                <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-admission-btn
-                >
-                  Admission Open
-                </button>
+            <p class="section-subtitle">Admission Cell</p>
 
-                <!-- Modal -->
-                <div
-                  class="modal fade"
-                  id="exampleModal"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">
-                          LCG Polytechnic Admission 2024
-                        </h1>
+            <h2 class="h2 section-title">
+              Contact Our Admission Cell
+            </h2>
 
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
+            <a href="tel:9830721351" class="admission-call-btn">
+              📞 Call Now : 9830721351
+            </a>
 
-                      <div class="modal-body">
-                        <form>
-                          <div class="form-row">
-                            <div class="form-group col-md-6">
-                              <label for="inputEmail4">First name</label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="inputEmail4"
-                                placeholder="Name"
-                              />
-                            </div>
-                            <div class="form-group col-md-6">
-                              <label for="inputPassword4">Last name</label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="inputPassword4"
-                                placeholder="last name"
-                              />
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <label for="inputAddress">Address</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="inputAddress"
-                              placeholder="1234 Main St"
-                            />
-                          </div>
-                          <div class="form-group">
-                            <label for="inputAddress2">Address 2</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="inputAddress2"
-                              placeholder="Apartment, studio, or floor"
-                            />
-                          </div>
-                          <div class="form-group">
-                            <label for="inputAddress2">Contact Number</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="inputAddress2"
-                              placeholder="+91 9876543210"
-                            />
-                          </div>
-                          <div class="form-row">
-                            <div class="form-group col-md-6">
-                              <label for="inputCity">City</label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="inputCity"
-                              />
-                            </div>
-                            <div class="form-group col-md-4">
-                              <label for="inputState">State</label>
-                              <select id="inputState" class="form-control">
-                                <option selected="">Choose...</option>
-                                <option>West Bengal</option>
-                              </select>
-                            </div>
-                            <div class="form-group col-md-2">
-                              <label for="inputZip">Zip</label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="inputZip"
-                              />
-                            </div>
-                          </div>
-                        </form>
-                      </div>
-
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          Save changes
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
+
+
+          <!-- RIGHT IMAGE -->
+          <figure class="admission-banner admission-right">
+            <img
+              src="./assets/img/admission-banner.jpg"
+              width="1056"
+              height="1076"
+              loading="lazy"
+              alt="admission banner"
+              class="w-100"
+            />
+          </figure>
+
+        </div>
+
         </section>
 
         <!--
           - #FOOTER
         -->
-        <footer class="footer">
-          <div class="footer-top section">
-            <div class="container">
-              <div class="footer-brand">
-                <a href="./index.html" class="logo">
-                  <img
-                    src="./assets/img/logo/footer-logo.png"
-                    width="180"
-                    alt="LCG Polytechnic"
-                  />
-                </a>
-
-                <ul class="footer-list">
-                  <li>
-                    <p class="footer-list-title">Visitors</p>
-                  </li>
-
-                  <li class="footer-item">
-                    <div class="item-icon">
-                      <ion-icon name="rocket"></ion-icon>
-                    </div>
-
-                    <p class="item-text" data-visitor>0</p>
-                  </li>
-
-                  <li class="footer-item">
-                    <div class="item-icon">
-                      <ion-icon name="timer"></ion-icon>
-                    </div>
-
-                    <div class="item-text">
-                      <div id="currentDateTime"></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <ul class="footer-list">
-                <li>
-                  <p class="footer-list-title">Quick Links</p>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">Know More College</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">President's Message</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">Principal's Message</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">Our Vision & Mission</span>
-                  </a>
-                </li>
-              </ul>
-
-              <ul class="footer-list">
-                <li>
-                  <p class="footer-list-title">Useful Links</p>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">AICTE INDIA</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">WBSCT & VE & SD</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">NATIONAL SCHOLARSHIP</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">Aikyashree Scholarship</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="footer-link">
-                    <ion-icon name="add"></ion-icon>
-
-                    <span class="span">SC ,ST & OBC Scholarship</span>
-                  </a>
-                </li>
-              </ul>
-
-              <ul class="footer-list">
-                <li>
-                  <p class="footer-list-title">Contact Us</p>
-                </li>
-
-                <li class="footer-item">
-                  <div class="item-icon">
-                    <ion-icon name="location"></ion-icon>
-                  </div>
-
-                  <address class="item-text">
-                    Lambodarpur, Suri, Birbhum,<br />
-                    West Bengal pin - 731101
-                  </address>
-                </li>
-
-                <li class="footer-item">
-                  <div class="item-icon">
-                    <ion-icon name="call"></ion-icon>
-                  </div>
-
-                  <a href="tel:+919475887799" class="footer-link">
-                    +91-9475887799
-                  </a>
-                </li>
-
-                <li class="footer-item">
-                  <div class="item-icon">
-                    <ion-icon name="mail"></ion-icon>
-                  </div>
-
-                  <a href="mailto:lcgpolytechnic@gmail.com" class="footer-link">
-                    lcgpolytechnic@gmail.com
-                  </a>
-                  <label> | </label>
-                  <a href="info@lcginstitute.com" class="footer-link">
-                   info@lcginstitute.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-bottom">
-            <div class="container">
-              <p class="copyright">
-                &copy; 2023 All Rights Reserved by
-                <a href="https://www.siplhub.com/" target="_blank">
-                  Sikharthy Infotech Pvt. Ltd.
-                </a>
-              </p>
-
-              <ul class="social-list">
-                <li>
-                  <a
-                    href="https://www.facebook.com/LCGIP/"
-                    target="_blank"
-                    class="social-link"
-                  >
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </li>
-
-                <!--<li>-->
-                <!--  <a-->
-                <!--    href="https://www.instagram.com/sikharthyinfotech"-->
-                <!--    target="_blank"-->
-                <!--    class="social-link"-->
-                <!--  >-->
-                <!--    <ion-icon name="logo-instagram"></ion-icon>-->
-                <!--  </a>-->
-                <!--</li>-->
-
-                <!--<li>-->
-                <!--  <a-->
-                <!--    href="https://www.linkedin.com/company/sikharthy-infotech-pvt-ltd"-->
-                <!--    target="_blank"-->
-                <!--    class="social-link"-->
-                <!--  >-->
-                <!--    <ion-icon name="logo-linkedin"></ion-icon>-->
-                <!--  </a>-->
-                <!--</li>-->
-              </ul>
-            </div>
-          </div>
-        </footer>
+      <?php include 'footer.php'; ?>
 
         <!--
           - #BACK TO TOP
@@ -989,14 +639,14 @@
         <!--
           - #ADMISSION BTN
         -->
-        <a
+        <!-- <a
           href="#"
           class="admission-btn"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
           Admission Open
-        </a>
+        </a> -->
       </article>
     </main>
 
@@ -1023,6 +673,78 @@
     <script src="./assets/js/script.js"></script>
 
     <!-- PopUP for Admission Query -->
+
+
+    <!-- Home Page Admission -->
+
+    <script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const admissionElements = document.querySelectorAll(
+".admission-left, .admission-right"
+);
+
+const observer = new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+entry.target.classList.add("active");
+}else{
+entry.target.classList.remove("active");
+}
+
+});
+
+},{threshold:0.3});
+
+admissionElements.forEach(el => observer.observe(el));
+
+});
+
+</script>
+
+<!-- Principal Message Modal -->
+
+<div class="modal fade" id="principalModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Principal's Message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <!-- Image -->
+        <img src="./assets/img/principal.jpg"
+             width="100"
+             height="100"
+             style="border-radius:50%; margin-bottom:15px;"
+             alt="Principal">
+
+        <!-- Text -->
+        <p>
+        Welcome to LCG Institute of Polytechnic. Our mission is to
+        provide quality technical education and develop skilled
+        professionals who contribute positively to society.
+        We focus on innovation, discipline and practical learning
+        to prepare students for real world challenges.
+        </p>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+        Dismiss
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
 
     <!-- Admission Enquiry 2026 Auto Popup -->
         <div class="modal fade" id="admission2026Modal" tabindex="-1" aria-hidden="true">
@@ -1111,6 +833,74 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+
+<!-- Counters -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const counters = document.querySelectorAll("[data-counter]");
+const cards = document.querySelectorAll(".counter-reveal");
+const heading = document.querySelector(".infra-heading");
+
+const observer = new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("active");
+
+if(entry.target.querySelector("[data-counter]")){
+startCounter(entry.target.querySelector("[data-counter]"));
+}
+
+}else{
+
+entry.target.classList.remove("active");
+
+if(entry.target.querySelector("[data-counter]")){
+entry.target.querySelector("[data-counter]").innerText="0";
+}
+
+}
+
+});
+
+},{threshold:0.4});
+
+cards.forEach(card=>observer.observe(card));
+observer.observe(heading);
+
+function startCounter(counter){
+
+const target = +counter.getAttribute("target");
+let count = 0;
+const speed = target/100;
+
+const update = () =>{
+
+count += speed;
+
+if(count < target){
+counter.innerText = Math.floor(count);
+requestAnimationFrame(update);
+}else{
+counter.innerText = target;
+}
+
+};
+
+update();
+
+}
+
+});
+</script>
+
+
+
  <!-- Modern Approval Layout  -->
 
 <script>
@@ -1180,30 +970,32 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <!-- About Us -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
 
-  const aboutElements = document.querySelectorAll(
-    ".about-left-reveal, .about-right-reveal"
-  );
+          const aboutElements = document.querySelectorAll(
+            ".about-left-reveal, .about-right-reveal"
+          );
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
 
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      } else {
-        entry.target.classList.remove("active"); 
-        // Allows animation again on reverse scroll
-      }
+              if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+              } else {
+                entry.target.classList.remove("active"); 
+                // Allows animation again on reverse scroll
+              }
 
-    });
-  }, { threshold: 0.3 });
+            });
+          }, { threshold: 0.3 });
 
-  aboutElements.forEach(el => observer.observe(el));
+          aboutElements.forEach(el => observer.observe(el));
 
-});
-</script>
+        });
+    </script>
 
+
+      
   </body>
 </html>

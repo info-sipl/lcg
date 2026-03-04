@@ -515,10 +515,10 @@ a{
               </div>
               <ul class="menu-main">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="index.php">Home</a>
                 </li>
                 <li>
-                  <a href="#about-div">About Us</a>
+                  <a href="about.php">About Us</a>
                 </li>
                 <li class="menu-item-has-children">
                   <a href="#">Administration <i class="fa fa-angle-down"></i></a>
