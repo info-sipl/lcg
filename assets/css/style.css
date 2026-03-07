@@ -1812,3 +1812,106 @@ h3 {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Society Page */
+
+/* ---------- Slide Animations ---------- */
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-120px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(120px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Image animation */
+
+.about-banner {
+  animation: slideLeft 1.2s ease;
+}
+
+/* Text animation */
+
+.about-content {
+  animation: slideRight 1.2s ease;
+}
+
+/* Accordion default hidden */
+
+.members .accordion-item {
+  opacity: 0;
+}
+
+/* Left animation */
+
+.left-show {
+  animation: slideLeft 0.8s forwards;
+}
+
+/* Right animation */
+
+.right-show {
+  animation: slideRight 0.8s forwards;
+}
+
+/* Hover effect */
+
+.accordion-button {
+  transition: all .3s ease;
+}
+
+.accordion-button:hover {
+  background: #0d6efd;
+  color: white;
+  transform: translateX(6px);
+}
+
+.accordion-button:not(.collapsed) {
+  background: #0d6efd;
+  color: white;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.about .container-fluid {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.about-banner img {
+  max-width: 420px;
+  width: 100%;
+}
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section-subtitle {
+  font-size: 42px;
+  font-weight: 700;
+}
